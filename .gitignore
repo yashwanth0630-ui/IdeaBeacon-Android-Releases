@@ -1,0 +1,13 @@
+# Android signing material — never commit
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+keystore.properties
+signing.properties
+
+# Local secrets
+.env
+.env.*
+!.env.example
